@@ -1,0 +1,11 @@
+.\rvmdk\usbhhid.o: host\usbhhid.c
+.\rvmdk\usbhhid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\usbhhid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\usbhhid.o: ..\inc/hw_types.h
+.\rvmdk\usbhhid.o: ..\driverlib/usb.h
+.\rvmdk\usbhhid.o: ..\usblib/usblib.h
+.\rvmdk\usbhhid.o: ..\usblib/usblibpriv.h
+.\rvmdk\usbhhid.o: ..\usblib/usbhid.h
+.\rvmdk\usbhhid.o: ..\usblib/host/usbhost.h
+.\rvmdk\usbhhid.o: ..\usblib/host/usbhostpriv.h
+.\rvmdk\usbhhid.o: ..\usblib/host/usbhhid.h

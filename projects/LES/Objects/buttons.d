@@ -1,0 +1,12 @@
+.\objects\buttons.o: buttons.c
+.\objects\buttons.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\buttons.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\inc/hw_types.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\inc/hw_memmap.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\inc/hw_gpio.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\driverlib/sysctl.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\driverlib/rom.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\driverlib/rom_map.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\driverlib/pin_map.h
+.\objects\buttons.o: ..\..\..\project_dust_hawk\driverlib/gpio.h
+.\objects\buttons.o: buttons.h

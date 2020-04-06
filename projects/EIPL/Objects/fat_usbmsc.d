@@ -1,0 +1,13 @@
+.\objects\fat_usbmsc.o: ..\..\third_party\fatfs\port\fat_usbmsc.c
+.\objects\fat_usbmsc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fat_usbmsc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\inc/hw_types.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\driverlib/sysctl.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\usblib/usblib.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\usblib/usbmsc.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\usblib/host/usbhost.h
+.\objects\fat_usbmsc.o: ..\..\..\project_dust_hawk\usblib/host/usbhmsc.h
+.\objects\fat_usbmsc.o: ..\..\third_party\fatfs/src/diskio.h
+.\objects\fat_usbmsc.o: ..\..\third_party\fatfs/src/integer.h
+.\objects\fat_usbmsc.o: ..\..\third_party\fatfs/src/ff.h
+.\objects\fat_usbmsc.o: ..\..\third_party\fatfs/src/ffconf.h

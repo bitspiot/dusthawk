@@ -1,0 +1,18 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\uartstdio.o"
+".\objects\startup_rvmdk.o"
+".\objects\bsp.o"
+".\objects\lcd.o"
+".\objects\rtc.o"
+".\objects\buttons.o"
+".\objects\dual_disk_drv.o"
+".\objects\dh.o"
+".\objects\ff.o"
+"..\..\driverlib\rvmdk\driverlib.lib"
+"..\..\usblib\rvmdk\usblib.lib"
+"..\..\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+--strict --scatter ".\Objects\dusthawk.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\dusthawk.map" -o .\Objects\dusthawk.axf

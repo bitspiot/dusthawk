@@ -1,0 +1,10 @@
+.\rvmdk\usbdcdesc.o: device\usbdcdesc.c
+.\rvmdk\usbdcdesc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\usbdcdesc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\usbdcdesc.o: ..\inc/hw_types.h
+.\rvmdk\usbdcdesc.o: ..\driverlib/debug.h
+.\rvmdk\usbdcdesc.o: ..\driverlib/usb.h
+.\rvmdk\usbdcdesc.o: ..\usblib/usblib.h
+.\rvmdk\usbdcdesc.o: ..\usblib/usblibpriv.h
+.\rvmdk\usbdcdesc.o: ..\usblib/device/usbdevice.h
+.\rvmdk\usbdcdesc.o: ..\usblib/device/usbdevicepriv.h

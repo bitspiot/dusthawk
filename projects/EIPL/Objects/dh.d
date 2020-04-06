@@ -1,0 +1,16 @@
+.\objects\dh.o: ..\..\dusthawk\dh.c
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\dh.o: ..\..\dusthawk\dhtypes.h
+.\objects\dh.o: ..\..\dusthawk\dhconf.h
+.\objects\dh.o: ..\..\dusthawk\dh.h
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\arm_math.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\objects\dh.o: ..\..\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
+.\objects\dh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

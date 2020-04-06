@@ -1,0 +1,12 @@
+.\objects\rtc.o: rtc.c
+.\objects\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\inc/hw_i2c.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\inc/hw_memmap.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\inc/hw_types.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\inc/hw_gpio.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\driverlib/i2c.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\driverlib/sysctl.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\driverlib/gpio.h
+.\objects\rtc.o: ..\..\..\project_dust_hawk\driverlib/pin_map.h
+.\objects\rtc.o: rtc.h

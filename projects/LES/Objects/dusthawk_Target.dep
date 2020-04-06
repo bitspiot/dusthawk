@@ -1,0 +1,145 @@
+Dependencies for Project 'dusthawk', Target 'Target': (DO NOT MODIFY !)
+F (.\main.c)(0x5894D97B)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (bsp.h)(0x5894D97B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\dusthawk_les/dh.h)(0x5890C59B)
+I (..\..\..\project_dust_hawk\utils/uartstdio.h)(0x580B3D1D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E614E)
+F (..\..\utils\uartstdio.c)(0x580B3D1D)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\uartstdio.o --omf_browse .\objects\uartstdio.crf --depend .\objects\uartstdio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_ints.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_uart.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/debug.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/interrupt.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/rom.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/uart.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\utils/uartstdio.h)(0x580B3D1D)
+F (.\startup_rvmdk.S)(0x587B39A5)(--cpu Cortex-M4.fp -g --apcs=interwork -ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "TM4C123GH6PM SETA 1"-o .\objects\startup_rvmdk.o --depend .\objects\startup_rvmdk.d)
+F (.\bsp.c)(0x5894DF5A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_gpio.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_nvic.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_ints.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/gpio.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/ssi.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/pin_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/interrupt.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\utils/uartstdio.h)(0x580B3D1D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\utils/ustdlib.h)(0x580B3D1D)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\driverlib/eeprom.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/adc.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/pwm.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/timer.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/udma.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\usblib/usblib.h)(0x580B3D1C)
+I (..\..\..\project_dust_hawk\usblib/usbmsc.h)(0x580B3D1C)
+I (..\..\..\project_dust_hawk\usblib/host/usbhost.h)(0x580B3D1D)
+I (..\..\..\project_dust_hawk\usblib/host/usbhmsc.h)(0x580B3D1D)
+I (..\..\third_party\fatfs/src/ff.h)(0x580B3D16)
+I (..\..\third_party\fatfs/src/integer.h)(0x580B3D16)
+I (..\..\third_party\fatfs/src/ffconf.h)(0x587D2618)
+I (..\..\third_party\fatfs/src/diskio.h)(0x580B3D16)
+I (bsp.h)(0x5894D97B)
+I (..\..\..\project_dust_hawk\dusthawk_les/dh.h)(0x5890C59B)
+I (lcd.h)(0x5894DF28)
+I (rtc.h)(0x587CED39)
+I (buttons.h)(0x5865D0C7)
+F (.\lcd.c)(0x58653E91)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (lcd.h)(0x5894DF28)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (bsp.h)(0x5894D97B)
+I (..\..\..\project_dust_hawk\dusthawk_les/dh.h)(0x5890C59B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/gpio.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/pin_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+F (.\rtc.c)(0x587B3B90)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_i2c.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_gpio.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/i2c.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/gpio.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/pin_map.h)(0x580B3D0F)
+I (rtc.h)(0x587CED39)
+F (.\buttons.c)(0x5865D0C3)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\buttons.o --omf_browse .\objects\buttons.crf --depend .\objects\buttons.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\inc/hw_gpio.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/pin_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/gpio.h)(0x580B3D0E)
+I (buttons.h)(0x5865D0C7)
+F (..\..\third_party\fatfs\port\dual_disk_drv.c)(0x587F852A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\dual_disk_drv.o --omf_browse .\objects\dual_disk_drv.crf --depend .\objects\dual_disk_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E614E)
+I (..\..\..\project_dust_hawk\inc/hw_types.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/sysctl.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\usblib/usblib.h)(0x580B3D1C)
+I (..\..\..\project_dust_hawk\usblib/usbmsc.h)(0x580B3D1C)
+I (..\..\..\project_dust_hawk\usblib/host/usbhost.h)(0x580B3D1D)
+I (..\..\..\project_dust_hawk\usblib/host/usbhmsc.h)(0x580B3D1D)
+I (..\..\third_party\fatfs/src/diskio.h)(0x580B3D16)
+I (..\..\third_party\fatfs/src/integer.h)(0x580B3D16)
+I (..\..\third_party\fatfs/src/ff.h)(0x580B3D16)
+I (..\..\third_party\fatfs/src/ffconf.h)(0x587D2618)
+I (..\..\..\project_dust_hawk\driverlib/gpio.h)(0x580B3D0E)
+I (..\..\..\project_dust_hawk\driverlib/ssi.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\inc/hw_memmap.h)(0x580B3D15)
+I (..\..\..\project_dust_hawk\driverlib/rom.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\driverlib/rom_map.h)(0x580B3D0F)
+I (..\..\..\project_dust_hawk\utils/uartstdio.h)(0x580B3D1D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E614E)
+F (..\..\dusthawk_les\dh.c)(0x589CCE60)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\dh.o --omf_browse .\objects\dh.crf --depend .\objects\dh.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E614E)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x574E614E)
+I (..\..\dusthawk_les\dhtypes.h)(0x58647843)
+I (..\..\dusthawk_les\dhconf.h)(0x588F724B)
+I (..\..\dusthawk_les\dh.h)(0x5890C59B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E614E)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\arm_math.h)(0x5625C678)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625DA34)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625C678)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625C678)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625C678)
+I (..\..\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625C678)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E614E)
+F (..\..\third_party\fatfs\src\ff.c)(0x580B3D16)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\..\..\project_dust_hawk -I ..\..\third_party -I ..\..\CMSIS\4.5.0\CMSIS\Include --c99-ID:\BitsPi\project_dust_hawk\projects\LES\RTE-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (..\..\third_party\fatfs\src\ff.h)(0x580B3D16)
+I (..\..\third_party\fatfs\src\integer.h)(0x580B3D16)
+I (..\..\third_party\fatfs\src\ffconf.h)(0x587D2618)
+I (..\..\third_party\fatfs\src\diskio.h)(0x580B3D16)
+F (..\..\driverlib\rvmdk\driverlib.lib)(0x587507C2)()
+F (..\..\usblib\rvmdk\usblib.lib)(0x58750763)()
+F (..\..\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x56286298)()

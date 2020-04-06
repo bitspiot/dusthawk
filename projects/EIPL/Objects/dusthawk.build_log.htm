@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Kumar peeyush, pqr, LIC=UJWBS-L5007-SYCVA-15UZ4-LT257-PZ3R2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\peeyush\Desktop\project_dust_hawk\projects\EIPL\dusthawk.uvprojx
+Project File Date:  01/18/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target'
+compiling dh.c...
+..\..\dusthawk\dh.c(1439): warning:  #177-D: variable "machineState" was declared but never referenced
+  	uint32_t machineState;
+..\..\dusthawk\dh.c(1597): warning:  #177-D: variable "prevSec" was declared but never referenced
+  	int prevSec;
+..\..\dusthawk\dh.c(1757): warning:  #177-D: variable "fId" was declared but never referenced
+  	char fId[16];
+..\..\dusthawk\dh.c(1839): warning:  #177-D: variable "fr" was declared but never referenced
+      float fr,fp;
+..\..\dusthawk\dh.c(69): warning:  #177-D: function "sample_adjst" was declared but never referenced
+  static uint32_t sample_adjst(void);
+..\..\dusthawk\dh.c(70): warning:  #177-D: function "flow_adjst" was declared but never referenced
+  static uint32_t flow_adjst(void);
+..\..\dusthawk\dh.c(86): warning:  #177-D: variable "cv" was declared but never referenced
+  static cv_t cv;
+..\..\dusthawk\dh.c(1975): warning:  #177-D: function "apply_flow_compensation" was declared but never referenced
+  static void apply_flow_compensation(volatile float *physical, float *flow){
+..\..\dusthawk\dh.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=74108 RO-data=3908 RW-data=1644 ZI-data=23644  
+".\Objects\dusthawk.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\peeyush\Desktop\project_dust_hawk\projects\EIPL\RTE
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
